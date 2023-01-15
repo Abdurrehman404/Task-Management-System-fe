@@ -46,7 +46,7 @@ export default function FormDialog({
       };
 
       // API call here
-      const postReq = axios.post("users/adminUpdate", tmpObj);
+      const postReq = axios.post("users/updateUser", tmpObj);
       await postReq;
       setSuccessReq(true);
     } catch {
