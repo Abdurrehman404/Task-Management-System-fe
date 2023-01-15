@@ -61,6 +61,7 @@ function UserHomePage() {
         async function getBoardBackend() {
           try {
             const getTheBoard = await axios.get(`board/${userName}`);
+            console.log(getTheBoard);
             resolve(getTheBoard.data.dto);
           } catch (err) {
             console.log("Error fetching the board");
