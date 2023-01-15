@@ -46,7 +46,7 @@ export default function FormDialog({
       };
 
       // API call here
-      const postReq = axios.post("users/updateUser", tmpObj);
+      const postReq = axios.post("users/adminUpdate", tmpObj);
       await postReq;
       setSuccessReq(true);
     } catch {
@@ -154,7 +154,6 @@ export default function FormDialog({
             variant="contained"
             color="success"
             loading={false}
-            disabled={editOpen}
             sx={{ marginTop: "1rem", marginBottom: "1rem" }}
           >
             Update Details
