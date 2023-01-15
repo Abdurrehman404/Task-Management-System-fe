@@ -56,9 +56,11 @@ function NavBar({ page, setPage, setpswPage }) {
                   marginTop: "1.5rem",
                   flexGrow: "1",
                   opacity: "1",
+                  
                 }}
+                href="https://github.com/Abdurrehman404"
               >
-                TaskZone
+                TaskZone By Abdur Rehman
               </h3>
             </Link>
           </Fade>

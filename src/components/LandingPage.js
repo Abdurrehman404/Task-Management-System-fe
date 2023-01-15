@@ -44,7 +44,9 @@ function LandingPage() {
           >
             TaskZone
           </h3>
+          
         </Fade>
+      
       </Stack>
       <Paper
         sx={{
@@ -67,6 +69,7 @@ function LandingPage() {
           }}
         >
           ONE OF THE LEADING MANAGEMENT TOOLS USED BY{" "}
+
           <Fade right>
             <span
               style={{
@@ -95,6 +98,9 @@ function LandingPage() {
             GET STARTED
           </Button>
         </Link>
+        <h2>
+            <a href="https://github.com/Abdurrehman404">By Abdur Rehman</a>
+          </h2>
       </Paper>
     </Box>
   );
